@@ -9,5 +9,7 @@
 
 ### Webpack Getting Started
 - webpack-demo
-https://webpack.js.org/guides/getting-started/
+[✔] https://webpack.js.org/guides/getting-started/
+[ ] https://webpack.js.org/guides/asset-management/
+
 
