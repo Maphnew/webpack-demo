@@ -24,4 +24,15 @@
             - yaml
             - json5
     - Global Assets
+- [✔] https://webpack.js.org/guides/output-management/
+    - index.html 수동관리 어려움 <= 파일이름에 해시 사용, 여러개 번들을 출력
+    - entry 추가 또는 이름변경
+    - 플러그인으로 쉽게 관리, `HtmlWebpackPlugin`
+    - Cleaning up the `/dist` folder
+    - The Manifest: 웹팩과 플러그인이 생성되는 파일을 "인식"하는 방식 `WebpackManifestPlugin`
+- [✔] https://webpack.js.org/guides/development/
+    - mode
+    - bundle된 소스에서 error 찾기 어려움 -> 찾아주는 source maps
+    - devtool: `inline-source-map`
+    - development tool - webpack-dev-server
 
